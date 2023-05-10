@@ -1,5 +1,6 @@
 import { Component } from "react";
-import shortid from "shortid";
+
+import css from'./Form.module.css'
 
 
 class Form extends Component{
@@ -64,7 +65,7 @@ class Form extends Component{
                         />
                     </label>
                     <p>
-                        <input type="submit" value={'add contact'} />
+                        <input type="submit" value={'add contact'} className={css.addContact}/>
                     </p>
                 
             </form>
